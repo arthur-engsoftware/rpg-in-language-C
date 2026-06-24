@@ -1,23 +1,21 @@
-#include <stdio.h>
-#include <string.h>
-#include <stdlib.h>
+#ifndef DADOS_H
+#define DADOS_H
 
-typedef struct {
-    char nome_personagem [50]; 
-    int hp;
-    int hpmax; 
-    int ataque;
-    int defesa; 
-    int xp;
-    int ouro;
-
-}personagem;
-
-typedef struct 
-{
+typedef struct personagem {
     char nome[50];
     int hp;
+    int hpmax;
     int ataque;
+    int defesa;
     int xp;
     int ouro;
-}Inimigo;
+} personagem;
+
+typedef struct inimigo {
+    char nome_inimigo[50];
+    int hp;
+    int ataque;
+    int defesa;
+} inimigo;
+
+#endif
