@@ -3,4 +3,6 @@ main
 *.exe
 *.o
 
+save.txtmain
 save.txt
+.vscode/
