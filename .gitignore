@@ -1,0 +1,6 @@
+rpg
+main
+*.exe
+*.o
+
+save.txt
