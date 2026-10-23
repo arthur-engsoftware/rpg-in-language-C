@@ -2,7 +2,7 @@
 
 Jogo de RPG simples em modo texto, feito em C para praticar `struct`, ponteiros, modularizacao e arquivos.
 
-> Projeto de estudo. Foi desenvolvido com auxilio de IA (Claude) e revisado por mim para aprendizado.
+
 
 ## Como funciona
 
